@@ -12,6 +12,9 @@ All notable changes to Hammer-MCP. Versions follow [SemVer](https://semver.org/)
 - Live Source 1 brush discovery, movement, scaling and deletion in Valve Hammer and Hammer++, by current selection or VMF ID; no map reload.
 - Oh My Pi (OMP) Streamable HTTP configuration under **Copy client config** in the tray, with the bearer token when configured.
 
+### Fixed
+- Live brush edits in stock Hammer now identify the selected solid by reconstructed bounds, so VMF plane points outside the solid no longer cause the approval prompt to name a different brush.
+
 ## [0.8.0] - 2026-11-15
 
 ### Added
