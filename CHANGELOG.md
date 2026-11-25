@@ -14,6 +14,7 @@ All notable changes to Hammer-MCP. Versions follow [SemVer](https://semver.org/)
 
 ### Fixed
 - Live brush edits in stock Hammer now identify the selected solid by reconstructed bounds, so VMF plane points outside the solid no longer cause the approval prompt to name a different brush.
+- Viewport capture and live brush tools also accept renamed Source 1 Hammer and Hammer++ launchers when their editor DLL is loaded.
 
 ## [0.8.0] - 2026-11-15
 
